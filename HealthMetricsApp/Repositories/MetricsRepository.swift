@@ -10,5 +10,9 @@ import Foundation
 protocol MetricsRepository {
     func fetchMetrics() async throws -> [Metric]
     func save(metric: Metric) async throws
+    func delete(id: UUID) async throws
+    
 }
+
+
 

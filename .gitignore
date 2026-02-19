@@ -60,3 +60,16 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
+
+# Build artifacts
+DerivedData/
+build/
+
+# Xcode workspace user data
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+
+# macOS noise
+.DS_Store
+

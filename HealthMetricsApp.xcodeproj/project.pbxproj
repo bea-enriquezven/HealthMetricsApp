@@ -6,8 +6,27 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXContainerItemProxy section */
+		67B11FAB2F46826500761465 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 671205FA2F43DFC500D19C8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 671206012F43DFC500D19C8F;
+			remoteInfo = HealthMetricsApp;
+		};
+		67B11FBE2F46AAC000761465 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 671205FA2F43DFC500D19C8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 671206012F43DFC500D19C8F;
+			remoteInfo = HealthMetricsApp;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		671206022F43DFC500D19C8F /* HealthMetricsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthMetricsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67B11FA72F46826500761465 /* HealthMetricsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealthMetricsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67B11FB82F46AAC000761465 /* HealthMetricsUIAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealthMetricsUIAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -16,10 +35,34 @@
 			path = HealthMetricsApp;
 			sourceTree = "<group>";
 		};
+		67B11FA82F46826500761465 /* HealthMetricsAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HealthMetricsAppTests;
+			sourceTree = "<group>";
+		};
+		67B11FB92F46AAC000761465 /* HealthMetricsUIAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HealthMetricsUIAppTests;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		671205FF2F43DFC500D19C8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67B11FA42F46826500761465 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67B11FB52F46AAC000761465 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,6 +76,8 @@
 			isa = PBXGroup;
 			children = (
 				671206042F43DFC500D19C8F /* HealthMetricsApp */,
+				67B11FA82F46826500761465 /* HealthMetricsAppTests */,
+				67B11FB92F46AAC000761465 /* HealthMetricsUIAppTests */,
 				671206032F43DFC500D19C8F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,6 +86,8 @@
 			isa = PBXGroup;
 			children = (
 				671206022F43DFC500D19C8F /* HealthMetricsApp.app */,
+				67B11FA72F46826500761465 /* HealthMetricsAppTests.xctest */,
+				67B11FB82F46AAC000761465 /* HealthMetricsUIAppTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,6 +117,52 @@
 			productReference = 671206022F43DFC500D19C8F /* HealthMetricsApp.app */;
 			productType = "com.apple.product-type.application";
 		};
+		67B11FA62F46826500761465 /* HealthMetricsAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67B11FAD2F46826500761465 /* Build configuration list for PBXNativeTarget "HealthMetricsAppTests" */;
+			buildPhases = (
+				67B11FA32F46826500761465 /* Sources */,
+				67B11FA42F46826500761465 /* Frameworks */,
+				67B11FA52F46826500761465 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67B11FAC2F46826500761465 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				67B11FA82F46826500761465 /* HealthMetricsAppTests */,
+			);
+			name = HealthMetricsAppTests;
+			packageProductDependencies = (
+			);
+			productName = HealthMetricsAppTests;
+			productReference = 67B11FA72F46826500761465 /* HealthMetricsAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		67B11FB72F46AAC000761465 /* HealthMetricsUIAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67B11FC02F46AAC000761465 /* Build configuration list for PBXNativeTarget "HealthMetricsUIAppTests" */;
+			buildPhases = (
+				67B11FB42F46AAC000761465 /* Sources */,
+				67B11FB52F46AAC000761465 /* Frameworks */,
+				67B11FB62F46AAC000761465 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67B11FBF2F46AAC000761465 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				67B11FB92F46AAC000761465 /* HealthMetricsUIAppTests */,
+			);
+			name = HealthMetricsUIAppTests;
+			packageProductDependencies = (
+			);
+			productName = HealthMetricsUIAppTests;
+			productReference = 67B11FB82F46AAC000761465 /* HealthMetricsUIAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -82,6 +175,14 @@
 				TargetAttributes = {
 					671206012F43DFC500D19C8F = {
 						CreatedOnToolsVersion = 26.2;
+					};
+					67B11FA62F46826500761465 = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = 671206012F43DFC500D19C8F;
+					};
+					67B11FB72F46AAC000761465 = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = 671206012F43DFC500D19C8F;
 					};
 				};
 			};
@@ -100,12 +201,28 @@
 			projectRoot = "";
 			targets = (
 				671206012F43DFC500D19C8F /* HealthMetricsApp */,
+				67B11FA62F46826500761465 /* HealthMetricsAppTests */,
+				67B11FB72F46AAC000761465 /* HealthMetricsUIAppTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		671206002F43DFC500D19C8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67B11FA52F46826500761465 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67B11FB62F46AAC000761465 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -122,7 +239,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		67B11FA32F46826500761465 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67B11FB42F46AAC000761465 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		67B11FAC2F46826500761465 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 671206012F43DFC500D19C8F /* HealthMetricsApp */;
+			targetProxy = 67B11FAB2F46826500761465 /* PBXContainerItemProxy */;
+		};
+		67B11FBF2F46AAC000761465 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 671206012F43DFC500D19C8F /* HealthMetricsApp */;
+			targetProxy = 67B11FBE2F46AAC000761465 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		6712060B2F43DFC600D19C8F /* Debug */ = {
@@ -310,6 +454,88 @@
 			};
 			name = Release;
 		};
+		67B11FAE2F46826500761465 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z23AR2H693;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kbev..HealthMetricsAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HealthMetricsApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HealthMetricsApp";
+			};
+			name = Debug;
+		};
+		67B11FAF2F46826500761465 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z23AR2H693;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kbev..HealthMetricsAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HealthMetricsApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HealthMetricsApp";
+			};
+			name = Release;
+		};
+		67B11FC12F46AAC000761465 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z23AR2H693;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kbev..HealthMetricsUIAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HealthMetricsApp;
+			};
+			name = Debug;
+		};
+		67B11FC22F46AAC000761465 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z23AR2H693;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kbev..HealthMetricsUIAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HealthMetricsApp;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -327,6 +553,24 @@
 			buildConfigurations = (
 				6712060E2F43DFC600D19C8F /* Debug */,
 				6712060F2F43DFC600D19C8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67B11FAD2F46826500761465 /* Build configuration list for PBXNativeTarget "HealthMetricsAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67B11FAE2F46826500761465 /* Debug */,
+				67B11FAF2F46826500761465 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67B11FC02F46AAC000761465 /* Build configuration list for PBXNativeTarget "HealthMetricsUIAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67B11FC12F46AAC000761465 /* Debug */,
+				67B11FC22F46AAC000761465 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
